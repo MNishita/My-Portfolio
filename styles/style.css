@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #1b2a35;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #236fa1;
+  font-family: 'Tangerine', cursive;
+  font-style: oblique;
+	font-size: 5rem;
+	margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+h2{
+  color: #0f4c75;
+  font-family: 'Tangerine', cursive;
+  font-size: 50px;
+  margin-bottom: 2rem;
+}
+
+h3{
+ font-family: 'Baloo Chettan 2', cursive;	
+ color: #3282b8;
+ padding: 0;
+ text-decoration: underline wavy;
+ font-size: 1.5rem;
+}
+
+hr {
+  margin: 4rem auto;
+	border-style: dotted none none;
+	border-width: 5px;
+	width: 8rem;
+	border-color: #3282b8;
+}
+
+main {
+  background-color: #d9e4e1;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  justify-content: center;
+}
+
+header {
+  padding: 1.2rem;
+  min-height: 2rem;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+header img,
+footer img {
+  height: 4.2rem;
+  width: 4rem;
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+}
+
+.profile img {
+  height: 10.5rem;
+  width: 10rem;
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+  margin-bottom: 2rem;
+}
+
+footer img {
+  float: left;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 1rem;
+}
+
+header nav ul li a {
+  color: #236fa1;
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-family: 'Baloo Chettan 2', cursive;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+header nav ul li a.active {
+  color: #1b2a35;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #1b2a35;
+  font-weight: bold;
+}
+
+.top-container {
+  width: 100%;
+  margin: 0;
+}
+.top-container .Intro {
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.middle-container {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.profile {
+  margin-bottom: 2rem;
+}
+
+.profile p{
+  line-height: 1.7;
+  display: block;
+  font-size: 18px;
+  font-style: normal;
+}
+
+.bottom-container {
+  background-color: #fff;
+  background: rgb(255,255,255);background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(217,228,225,1) 100%);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bottom-container .skills div{
+  margin-bottom: 1.5rem;
+}
+
+.bottom-container .skills .database{
+  margin-top: -30px;
+}
+
+.bottom-container .skills .database img{
+  margin-top: -15px;
+}
+
+.bottom-container .skills img {
+  padding: 1rem 1.5rem 0.5rem 1.5rem;
+  width: 8.9rem;
+  height: 7.5rem;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: linear-gradient(to bottom, #32e8ee, #167c80);
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+footer {
+  background: #1b2a35;
+  text-align: center;
+  margin: 2rem auto 1rem auto;
+}
+
+footer .container .link {
+  margin-bottom: 1.2rem;
+}
+
+footer .container .link a{
+  color: #11999E;
+  padding: 0 ;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 0 0.8rem;
+}
+
+footer .container .link a:hover {
+  color: #fff;
+}
+
+.footer-social-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-social-icons ul {
+  margin: auto;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+
+.footer-social-icons li {
+  display: inline;
+  padding: 0 1rem;
+}
+
+.footer-social-icons ul li a i{
+  background-color: #fff;
+  color: #4f5052;
+  font-size: 2rem;
+  padding: 1.1rem 1.3rem;
+  border-radius: 50%;
+}
+
+footer .container p {
+  color: #fff;
+  margin: 0;
+}
+
+footer .container p sup{
+  margin-top: 2.5rem;
+  font-size: 1rem;
+}
+
+footer .container p a{
+  color: orange;
+  text-decoration: none;
+  padding: 0 0.1rem;
+}
