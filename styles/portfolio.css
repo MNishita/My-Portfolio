@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #1b2a35;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #d9e4e1;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  justify-content: center;
+}
+
+header {
+  padding: 1.2rem;
+  min-height: 2rem;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+header img,
+footer img {
+  height: 4.2rem;
+  width: 4rem;
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+}
+
+footer img {
+  float: left;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 1rem;
+}
+
+header nav ul li a {
+  color: #236fa1;
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-family: 'Baloo Chettan 2', cursive;
+  transition: all 0.4s ease;
+}
+
+header nav ul li a.active {
+  color: #1b2a35;
+}
+
+header nav ul li a:hover {
+  color: #1b2a35;
+  text-decoration: none;
+}
+
+.projects .project {
+    padding: 1rem 1rem;
+    border: 10px solid #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects h5 {
+    padding: 0.5rem 0;
+    margin-bottom: 1.5rem;
+}
+
+.projects .odd {
+    background-color: #1b2a35;
+    color: #fff;
+}
+
+aside {
+    float: right;
+}
+
+aside img{
+    width: 20rem;
+    height: 13rem;
+}
+
+.projects .project p {
+    padding: 0.5rem;
+    background-color: #1b2a35;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-right: 1rem;
+    border: 1px solid #d9e4e1;
+    display: inline;outline: none;
+    cursor: pointer;
+}
+
+.projects .odd p {
+    background-color: #d9e4e1;
+    border: 1px solid #1b2a35;
+}
+
+.projects .project a {
+    text-decoration: none;
+    color: #d9e4e1;
+}
+
+.projects .odd a {
+    text-decoration: none;
+    color: #1b2a35;
+}
+
+footer {
+  background: #1b2a35;
+  text-align: center;
+  margin: 2rem auto 1rem auto;
+}
+
+footer .container .link {
+  margin-bottom: 1.2rem;
+}
+
+footer .container .link a{
+  color: #11999E;
+  padding: 0 ;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 0 0.8rem;
+}
+
+footer .container .link a:hover {
+  color: #fff;
+}
+
+.footer-social-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-social-icons ul {
+  margin: auto;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+
+.footer-social-icons li {
+  display: inline;
+  padding: 0 1rem;
+}
+
+.footer-social-icons ul li a i{
+  background-color: #fff;
+  color: #4f5052;
+  font-size: 2rem;
+  padding: 1.1rem 1.3rem;
+  border-radius: 50%;
+}
+
+footer .container p {
+  color: #fff;
+  margin: 0;
+}
+
+footer .container p a{
+  color: orange;
+  text-decoration: none;
+  padding: 0 0.1rem;
+}
