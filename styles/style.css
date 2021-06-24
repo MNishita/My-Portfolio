@@ -100,18 +100,16 @@ header nav ul li a {
   font-size: 0.9rem;
   font-weight: bold;
   font-family: 'Baloo Chettan 2', cursive;
-  text-decoration: none;
   transition: all 0.4s ease;
 }
 
 header nav ul li a.active {
   color: #1b2a35;
-  font-weight: bold;
 }
 
 header nav ul li a:hover {
   color: #1b2a35;
-  font-weight: bold;
+  text-decoration: none;
 }
 
 .top-container {
@@ -144,20 +142,11 @@ header nav ul li a:hover {
 .bottom-container {
   background-color: #fff;
   background: rgb(255,255,255);background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(217,228,225,1) 100%);
-  margin: 0 auto;
   text-align: center;
 }
 
 .bottom-container .skills div{
   margin-bottom: 1.5rem;
-}
-
-.bottom-container .skills .database{
-  margin-top: -30px;
-}
-
-.bottom-container .skills .database img{
-  margin-top: -15px;
 }
 
 .bottom-container .skills img {
