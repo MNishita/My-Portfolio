@@ -74,8 +74,8 @@ header nav ul li a:hover {
 }
 
 .projects .project {
-    padding: 1rem 1rem;
-    border: 10px solid #fff;
+    padding: 1rem 1.5rem;
+    border: 15px solid #fff;
     display: flex;
     justify-content: space-between;
 }
