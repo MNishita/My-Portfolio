@@ -58,7 +58,7 @@ header li {
 
 header nav ul li a {
   color: #236fa1;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: bold;
   font-family: 'Baloo Chettan 2', cursive;
   transition: all 0.4s ease;
@@ -131,22 +131,6 @@ footer {
   margin: 2rem auto 1rem auto;
 }
 
-footer .container .link {
-  margin-bottom: 1.2rem;
-}
-
-footer .container .link a{
-  color: #11999E;
-  padding: 0 ;
-  text-decoration: none;
-  font-size: 1.2rem;
-  padding: 0 0.8rem;
-}
-
-footer .container .link a:hover {
-  color: #fff;
-}
-
 .footer-social-icons {
   display: flex;
   flex-direction: row;
@@ -169,15 +153,4 @@ footer .container .link a:hover {
   font-size: 2rem;
   padding: 1.1rem 1.3rem;
   border-radius: 50%;
-}
-
-footer .container p {
-  color: #fff;
-  margin: 0;
-}
-
-footer .container p a{
-  color: orange;
-  text-decoration: none;
-  padding: 0 0.1rem;
 }
