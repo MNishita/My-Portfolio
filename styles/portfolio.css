@@ -126,31 +126,40 @@ aside img{
 }
 
 footer {
-  background: #1b2a35;
+  background-color: #1b2a35;
   text-align: center;
-  margin: 2rem auto 1rem auto;
+  padding: 2rem 0;
 }
 
 .footer-social-icons {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .footer-social-icons ul {
-  margin: auto;
-  margin-bottom: 2rem;
-  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
 }
 
 .footer-social-icons li {
   display: inline;
-  padding: 0 1rem;
+  padding-right: 10px;
 }
 
-.footer-social-icons ul li a i{
+.footer-social-icons ul li a i {
   background-color: #fff;
   color: #4f5052;
   font-size: 2rem;
   padding: 1.1rem 1.3rem;
   border-radius: 50%;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.footer-social-icons ul li a:hover i {
+  background-color: #236fa1;
+  color: white;
 }

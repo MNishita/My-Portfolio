@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mandadi Nishita - Portfolio</title>
+    <meta name="description" content="Nishita Mandadi's portfolio showcasing my skills in Java, Spring Boot, and JavaScript.">
+    <title>Nishita Mandadi - Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css" type="text/css">
     <link rel="stylesheet" href="styles/style.css" type="text/css">
 </head>
@@ -20,69 +22,75 @@
                 </ul>
             </nav>
         </header>
-        <hr>
-        <div class="top-container">
-            <div class="Intro">
-                <h1>Nishita Mandadi</h1>
+
+        <div class="slideshow-container">
+            <div class="slides active" id="section1">
+                <section class="middle-container">
+                    <div class="top-container text-center">
+                        <h1>Nishita Mandadi</h1>
+                    </div>
+                    <div class="profile">
+                        <img class="photo" src="images/Snapchat-2142214421.jpg" alt="Nishita Mandadi">
+                        <p>I am a Computer Science graduate student at the University of North Texas with experience in Java, Spring Boot, and JavaScript. I have contributed to impactful projects, and enjoy crafting creative solutions using web technologies. My passion for learning and problem-solving drives me to deliver meaningful results.</p>
+                        <a href="https://drive.google.com/uc?export=download&id=1KoZrfYgpNMn9Lw1v-s_F6ouFg5oPK7kj" download="Nishita_Mandadi_Resume" class="download-btn">
+                            <i class="fa fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                </section>
             </div>
+    
+            <div class="slides" id="section2">
+                <section class="bottom-container">
+                    <div class="skills">
+                        <h2>What I Know</h2>
+    
+                        <div class="dropdown">
+                            <h3 class="dropdown-toggle">Languages</h3>
+                            <div class="dropdown-content">
+                                <img src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/c.svg" alt="C">
+                                <img src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/cpp.svg" alt="C++">
+                                <img src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/java.svg" alt="Java">
+                            </div>
+                        </div>
+    
+                        <div class="dropdown">
+                            <h3 class="dropdown-toggle">Front End</h3>
+                            <div class="dropdown-content">
+                                <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5">
+                                <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS3">
+                                <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="JavaScript">
+                            </div>
+                        </div>
+    
+                        <div class="dropdown">
+                            <h3 class="dropdown-toggle">Back End</h3>
+                            <div class="dropdown-content">
+                                <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" alt="Java">
+                            </div>
+                        </div>
+    
+                        <div class="dropdown">
+                            <h3 class="dropdown-toggle">Database</h3>
+                            <div class="dropdown-content">
+                                <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" alt="MySQL">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+    
+            <a class="arrow arrow-left" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="arrow arrow-right" onclick="changeSlide(1)">&#10095;</a>
         </div>
-        <div class="middle-container">
-            <div class="profile">
-                <img class="photo" src="images/Snapchat-2142214421.jpg">
-                <p>I am a Computer Science graduate student at the University of North Texas with experience in Java, Spring Boot, and JavaScript. I have contributed to impactful projects, and enjoy crafting creative solutions using web technologies. My passion for learning and problem-solving drives me to deliver meaningful results</p>
-                <a href="https://drive.google.com/uc?export=download&id=1KoZrfYgpNMn9Lw1v-s_F6ouFg5oPK7kj" download="Nishita_Mandadi_Resume" class="download-btn">
-                    <i class="fa fa-download"></i> Download Resume
-                </a>
-            </div>
-            <hr>
-        </div>
-        <div class="bottom-container">
-            <div class="skills">
-                <h2>What I know</h2>
-        
-                <div class="dropdown">
-                    <h3 class="dropdown-toggle">Languages</h3>
-                    <div class="dropdown-content">
-                        <img src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/c.svg" alt="C">
-                        <img src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/cpp.svg" alt="C++">
-                        <img src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/java.svg" alt="Java">
-                    </div>
-                </div>
-        
-                <div class="dropdown">
-                    <h3 class="dropdown-toggle">Front End</h3>
-                    <div class="dropdown-content">
-                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5">
-                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS3">
-                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="JavaScript">
-                    </div>
-                </div>
-        
-                <div class="dropdown">
-                    <h3 class="dropdown-toggle">Back End</h3>
-                    <div class="dropdown-content">
-                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" alt="Java">
-                    </div>
-                </div>
-        
-                <div class="dropdown">
-                    <h3 class="dropdown-toggle">Database</h3>
-                    <div class="dropdown-content">
-                        <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" alt="MySQL">
-                    </div>
-                </div>
-            </div>
-        </div>        
     </main>
+
     <footer>
-        <div class="container">
-            <div class="footer-social-icons">
-                <ul>
-                    <li><a href="https://github.com/MNishita"><i class="fa fa-github"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/nishita-mandadi-580436318/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.instagram.com/mandadi_nishita/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
+        <div class="footer-social-icons">
+            <ul>
+                <li><a href="https://github.com/MNishita"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/nishita-mandadi-580436318/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/mandadi_nishita/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
         </div>
     </footer>
     <script src="script.js"></script>
