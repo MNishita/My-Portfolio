@@ -117,6 +117,31 @@ header nav ul li a:hover {
   font-style: normal;
 }
 
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.download-btn i {
+  margin-right: 10px;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+}
+
+.download-btn:active {
+  background-color: #003f7f;
+}
+
 .bottom-container {
   background-color: #fff;
   background: rgb(255,255,255);background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(217,228,225,1) 100%);
