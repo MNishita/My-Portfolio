@@ -57,7 +57,7 @@ header li {
 }
 
 header nav ul li a {
-  color: #236fa1;
+  color: #1b2a35;
   font-size: 1.1rem;
   font-weight: bold;
   font-family: 'Baloo Chettan 2', cursive;
@@ -65,11 +65,11 @@ header nav ul li a {
 }
 
 header nav ul li a.active {
-  color: #1b2a35;
+  color: #236fa1;
 }
 
 header nav ul li a:hover {
-  color: #1b2a35;
+  color: #236fa1;
   text-decoration: none;
 }
 

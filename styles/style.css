@@ -56,18 +56,18 @@ header li {
 }
 
 header nav ul li a {
-  color: #236fa1;
+  color: #1b2a35;
   font-size: 1rem;
   font-weight: bold;
   transition: all 0.4s ease;
 }
 
 header nav ul li a.active {
-  color: #1b2a35;
+  color: #236fa1;
 }
 
 header nav ul li a:hover {
-  color: #1b2a35;
+  color: #236fa1;
   text-decoration: none;
 }
 
