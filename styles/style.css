@@ -147,10 +147,10 @@ header nav {
 }
 
 .profile img {
-  height: 10rem;
-  width: 10rem;
-  border-radius: 50%;
-  margin-bottom: 2rem;
+  height: 14rem;
+  width: 10.5rem;
+  border-radius: 80%;
+  margin-bottom: 1rem;
 }
 
 .profile p {
